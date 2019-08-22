@@ -102,7 +102,7 @@ function float GetAIGroundSpeedMod()
 
 function float GetDifficultyMaxAIModifier()
 {
-	return OriginalDifficultyInfo.GetDifficultyMaxAIModifier() * 1.15;
+	return OriginalDifficultyInfo.GetDifficultyMaxAIModifier() * 5.15;
 }
 
 function float GetKillCashModifier()
@@ -205,13 +205,13 @@ defaultproperties
 	Nightmare={(
 		TraderTime=60,
 		MovementSpeedMod=1.115500,
-   		WaveCountMod=0.980000,
-   		DoshKillMod=0.700000,
+   		WaveCountMod=1.030000,
+   		DoshKillMod=0.800000,
    		StartingDosh=4000,
    		AmmoPickupsMod=0.010000,
    		ItemPickupsMod=0.050000,
    		MediumAttackChance=1.500000,
         HardAttackChance=2.000000,
         SelfInflictedDamageMod=1.00000,
-		SpawnRateModifier=0.35)}
+		SpawnRateModifier=0.25)}
 }
