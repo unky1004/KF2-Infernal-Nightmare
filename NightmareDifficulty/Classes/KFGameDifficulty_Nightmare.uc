@@ -102,7 +102,7 @@ function float GetAIGroundSpeedMod()
 
 function float GetDifficultyMaxAIModifier()
 {
-	return OriginalDifficultyInfo.GetDifficultyMaxAIModifier() * 5.15;
+	return OriginalDifficultyInfo.GetDifficultyMaxAIModifier() * 1.15;
 }
 
 function float GetKillCashModifier()
@@ -213,5 +213,5 @@ defaultproperties
    		MediumAttackChance=1.500000,
         HardAttackChance=2.000000,
         SelfInflictedDamageMod=1.00000,
-		SpawnRateModifier=0.25)}
+		SpawnRateModifier=0.2)}
 }
