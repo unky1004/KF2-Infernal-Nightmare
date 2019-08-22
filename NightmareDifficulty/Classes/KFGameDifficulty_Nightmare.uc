@@ -203,6 +203,10 @@ defaultproperties
 	HeadHealthMult=1.0
 	
 	Nightmare={(
+		MaxMonsters=25
+		CohortSize=8
+		SpawnMod=0.6000
+		SpawnPoll=0.7000
 		TraderTime=60,
 		MovementSpeedMod=1.115500,
    		WaveCountMod=1.980000,
