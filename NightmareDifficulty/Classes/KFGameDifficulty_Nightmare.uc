@@ -92,7 +92,7 @@ function float GetGlobalHealthMod()
 
 function float GetTraderTimeByDifficulty()
 {
-	return FMax(OriginalDifficultyInfo.GetTraderTimeByDifficulty() * 0.5, 10.f);
+	return FMax(OriginalDifficultyInfo.GetTraderTimeByDifficulty() * 1, 10.f);
 }
 
 function float GetAIGroundSpeedMod()
@@ -152,7 +152,7 @@ function float GetSelfInflictedDamageMod()
 
 function float GetSpawnRateModifier()
 {
-	return OriginalDifficultyInfo.GetSpawnRateModifier() * 0.5;
+	return OriginalDifficultyInfo.GetSpawnRateModifier() * 1;
 }
 
 function float GetPlayerNumMaxAIModifier( byte NumLivingPlayers )
@@ -205,9 +205,9 @@ defaultproperties
 	Nightmare={(
 		TraderTime=60,
 		MovementSpeedMod=1.115500,
-   		WaveCountMod=1.980000,
-   		DoshKillMod=1.100000,
-   		StartingDosh=100,
+   		WaveCountMod=0.980000,
+   		DoshKillMod=0.700000,
+   		StartingDosh=4000,
    		AmmoPickupsMod=0.010000,
    		ItemPickupsMod=0.050000,
    		MediumAttackChance=1.500000,
