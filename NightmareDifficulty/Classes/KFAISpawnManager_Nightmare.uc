@@ -137,8 +137,8 @@ function float GetNextSpawnTimeMod()
 	local float UsedSoloWaveRateMod;
 
 	NumLivingPlayers = GetLivingPlayerCount();
-	SpawnTimeMod = 1.0;
-	UsedSoloWaveRateMod = 1.0;
+	SpawnTimeMod = 0.5;
+	UsedSoloWaveRateMod = 0.5;
 
     // Scale solo spawning rate by wave and difficulty
     if( bOnePlayerAtStart && NumLivingPlayers <= 1 )
@@ -272,10 +272,10 @@ defaultproperties
                                    RateModifier[3]=1.0)}    // Wave 4
 	
 	// Nightmare
-    SoloWaveSpawnRateModifierMod(4)={(RateModifier[0]=0.8,     // Wave 1
-                                   RateModifier[1]=0.8,     // Wave 2
-                                   RateModifier[2]=0.8,     // Wave 3
-                                   RateModifier[3]=0.8)}    // Wave 4
+    SoloWaveSpawnRateModifierMod(4)={(RateModifier[0]=0.5,     // Wave 1
+                                   RateModifier[1]=0.5,     // Wave 2
+                                   RateModifier[2]=0.5,     // Wave 3
+                                   RateModifier[3]=0.5)}    // Wave 4
 								   
 	EarlyWaveSpawnRateModifierMod(0)=0.8
 	EarlyWaveSpawnRateModifierMod(1)=0.6
