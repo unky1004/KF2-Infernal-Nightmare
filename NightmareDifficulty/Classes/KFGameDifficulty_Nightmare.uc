@@ -203,10 +203,10 @@ defaultproperties
 	HeadHealthMult=1.0
 	
 	Nightmare={(
-		TraderTime=30,
-		MovementSpeedMod=1.112500,
+		TraderTime=60,
+		MovementSpeedMod=1.115500,
    		WaveCountMod=1.980000,
-   		DoshKillMod=0.500000,
+   		DoshKillMod=1.100000,
    		StartingDosh=100,
    		AmmoPickupsMod=0.010000,
    		ItemPickupsMod=0.050000,
