@@ -69,7 +69,7 @@ function float GetAIDamageModifier(KFPawn_Monster P, float GameDifficulty, bool 
 	
 	DefValue = OriginalDifficultyInfo.GetAIDamageModifier(P, GameDifficulty == `DIFFICULTY_NIGHTMARE ? `DIFFICULTY_HELLONEARTH : GameDifficulty, bSoloPlay);
 	if( GameDifficulty == `DIFFICULTY_NIGHTMARE )
-		DefValue *= 1.32f;
+		DefValue *= 1.22f;
 	
 	return DefValue;
 }
@@ -102,7 +102,7 @@ function float GetAIGroundSpeedMod()
 
 function float GetDifficultyMaxAIModifier()
 {
-	return OriginalDifficultyInfo.GetDifficultyMaxAIModifier() * 1.15;
+	return OriginalDifficultyInfo.GetDifficultyMaxAIModifier() * 5.15;
 }
 
 function float GetKillCashModifier()
@@ -206,12 +206,12 @@ defaultproperties
 		TraderTime=60,
 		MovementSpeedMod=1.115500,
    		WaveCountMod=1.030000,
-   		DoshKillMod=0.800000,
+   		DoshKillMod=1.100000,
    		StartingDosh=4000,
    		AmmoPickupsMod=0.010000,
    		ItemPickupsMod=0.050000,
    		MediumAttackChance=1.500000,
-        HardAttackChance=2.000000,
+        HardAttackChance=1.750000,
         SelfInflictedDamageMod=1.00000,
 		SpawnRateModifier=0.2)}
 }
