@@ -69,7 +69,7 @@ function float GetAIDamageModifier(KFPawn_Monster P, float GameDifficulty, bool 
 	
 	DefValue = OriginalDifficultyInfo.GetAIDamageModifier(P, GameDifficulty == `DIFFICULTY_NIGHTMARE ? `DIFFICULTY_HELLONEARTH : GameDifficulty, bSoloPlay);
 	if( GameDifficulty == `DIFFICULTY_NIGHTMARE )
-		DefValue *= 1.22f;
+		DefValue *= 1.32f;
 	
 	return DefValue;
 }
@@ -102,7 +102,7 @@ function float GetAIGroundSpeedMod()
 
 function float GetDifficultyMaxAIModifier()
 {
-	return OriginalDifficultyInfo.GetDifficultyMaxAIModifier() * 5.15;
+	return OriginalDifficultyInfo.GetDifficultyMaxAIModifier() * 1.00;
 }
 
 function float GetKillCashModifier()
