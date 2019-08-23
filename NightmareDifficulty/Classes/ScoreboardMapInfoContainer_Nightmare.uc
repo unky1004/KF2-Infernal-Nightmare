@@ -12,7 +12,7 @@ function LocalizeText()
 
 	if(KFGRI != none)
 	{
-		GameDifficultyString = KFGRI.GameDifficulty == `DIFFICULTY_NIGHTMARE ? "Infernal Nightmare" : class'KFCommon_LocalizedStrings'.static.GetDifficultyString(KFGRI.GameDifficulty);
+		GameDifficultyString = KFGRI.GameDifficulty == `DIFFICULTY_NIGHTMARE ? "Nightmare" : class'KFCommon_LocalizedStrings'.static.GetDifficultyString(KFGRI.GameDifficulty);
 		GameTypeString =  KFGRI.GameClass.default.GameName;
     	MatchInfoString = GameTypeString @"-" @GameDifficultyString;
 	}
