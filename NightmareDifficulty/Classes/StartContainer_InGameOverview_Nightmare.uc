@@ -9,7 +9,7 @@ function UpdateDifficulty( string Difficulty )
     {
 		if( KFGRI.GameDifficulty == `DIFFICULTY_NIGHTMARE )
 		{
-			SetString("difficultyText", "악몽");
+			SetString("difficultyText", "Nightmare");
 			return;
 		}
 	}
