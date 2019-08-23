@@ -300,7 +300,7 @@ defaultproperties
     SpawnRateModificationRangeCurve(`DIFFICULTY_NIGHTMARE)		  = (Points=((InVal=0.f,OutVal=0.75f),(InVal=0.5f, OutVal=1.0),(InVal=1.f, OutVal=0.5f)))
     AIMovementSpeedModificationRange(`DIFFICULTY_NIGHTMARE)   	  = (X=0.0,Y=0.0)
     AllowLowIntensityZedModeByDifficulty(`DIFFICULTY_NIGHTMARE)   = 0
-    ParZedLifeSpan(`DIFFICULTY_NIGHTMARE) 						  = 14.0
-    ParZedLifeSpanSolo(`DIFFICULTY_NIGHTMARE) 					  = 11.0
+    ParZedLifeSpan(`DIFFICULTY_NIGHTMARE) 						  = 25.0
+    ParZedLifeSpanSolo(`DIFFICULTY_NIGHTMARE) 					  = 25.0
     LullSettings(`DIFFICULTY_NIGHTMARE) 						  = {(MaxDuration=3.0, Cooldown=20.0)} 
 }
