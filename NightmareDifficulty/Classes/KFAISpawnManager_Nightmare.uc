@@ -272,14 +272,14 @@ defaultproperties
                                    RateModifier[3]=1.0)}    // Wave 4
 	
 	// Nightmare
-    SoloWaveSpawnRateModifierMod(4)={(RateModifier[0]=0.5,     // Wave 1
-                                   RateModifier[1]=0.5,     // Wave 2
-                                   RateModifier[2]=0.5,     // Wave 3
-                                   RateModifier[3]=0.5)}    // Wave 4
+    SoloWaveSpawnRateModifierMod(4)={(RateModifier[0]=0.2,     // Wave 1
+                                   RateModifier[1]=0.2,     // Wave 2
+                                   RateModifier[2]=0.2,     // Wave 3
+                                   RateModifier[3]=0.2)}    // Wave 4
 								   
-	EarlyWaveSpawnRateModifierMod(0)=0.8
-	EarlyWaveSpawnRateModifierMod(1)=0.6
-	EarlyWaveSpawnRateModifierMod(2)=0.5
-	EarlyWaveSpawnRateModifierMod(3)=0.5
-	EarlyWaveSpawnRateModifierMod(4)=0.4
+	EarlyWaveSpawnRateModifierMod(0)=0.2
+	EarlyWaveSpawnRateModifierMod(1)=0.2
+	EarlyWaveSpawnRateModifierMod(2)=0.2
+	EarlyWaveSpawnRateModifierMod(3)=0.2
+	EarlyWaveSpawnRateModifierMod(4)=0.2
 }
