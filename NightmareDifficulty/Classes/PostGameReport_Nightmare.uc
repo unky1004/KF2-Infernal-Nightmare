@@ -19,7 +19,7 @@ function SetSumarryInfo()
 		KFGRI = KFGameReplicationInfo(GetPC().WorldInfo.GRI);
 
 		if( KFGRI.GameDifficulty == `DIFFICULTY_NIGHTMARE )
-			GameDifficultyString = "Infernal Nightmare";
+			GameDifficultyString = "악몽";
 		else GameDifficultyString = class'KFCommon_LocalizedStrings'.static.GetDifficultyString(KFGRI.GameDifficulty);
 
 		GameTypeString = KFGRI.GameClass.default.GameName;
