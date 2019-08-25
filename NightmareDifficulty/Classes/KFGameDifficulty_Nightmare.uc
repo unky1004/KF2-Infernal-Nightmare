@@ -206,12 +206,12 @@ defaultproperties
 		TraderTime=60,
 		MovementSpeedMod=1.115500,
    		WaveCountMod=1.030000,
-   		DoshKillMod=1.100000,
-   		StartingDosh=4000,
+   		DoshKillMod=1.700000,
+   		StartingDosh=5000,
    		AmmoPickupsMod=0.010000,
    		ItemPickupsMod=0.050000,
    		MediumAttackChance=1.500000,
-        HardAttackChance=1.750000,
+        HardAttackChance=1.850000,
         SelfInflictedDamageMod=1.00000,
-		SpawnRateModifier=0.2)}
+		SpawnRateModifier=0.35)}
 }
