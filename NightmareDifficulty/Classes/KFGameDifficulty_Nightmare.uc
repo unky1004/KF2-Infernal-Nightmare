@@ -206,7 +206,7 @@ defaultproperties
 		TraderTime=60,
 		MovementSpeedMod=1.115500,
    		WaveCountMod=1.030000,
-   		DoshKillMod=1.700000,
+   		DoshKillMod=1.330000,
    		StartingDosh=5000,
    		AmmoPickupsMod=0.010000,
    		ItemPickupsMod=0.050000,
