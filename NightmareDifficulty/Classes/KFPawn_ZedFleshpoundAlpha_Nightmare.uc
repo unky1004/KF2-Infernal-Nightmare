@@ -80,11 +80,11 @@ defaultproperties
 	DefaultGlowColor=(R=1,G=0.5f)
 	
 	Health=2000
-	GroundSpeed=510.f
+	GroundSpeed=500.f
 	
 	Begin Object Class=FIRE_MeleeHelper Name=FIREMeleeHelper_0
-		BaseDamage=60.f
-		MaxHitRange=300.f
+		BaseDamage=50.f
+		MaxHitRange=270.f
 	    MomentumTransfer=55000.f
 		MyDamageType=class'KFDT_Fire_Napalm'
 	End Object
@@ -92,20 +92,20 @@ defaultproperties
 	
 	Begin Object Class=KFGameExplosion Name=ExploTemplate1
 		Damage=32
-		DamageRadius=900
+		DamageRadius=700
 		DamageFalloffExponent=2.f
 		DamageDelay=0.f
 
 		MyDamageType=class'KFDT_Explosive_FleshpoundKingRage_Heavy'
 		KnockDownStrength=0
 		FractureMeshRadius=200.0
-		FracturePartVel=500.0
+		FracturePartVel=400.0
 		ExplosionEffects=KFImpactEffectInfo'ZED_Fleshpound_King_EMIT.King_Pound_Explosion_Heavy'
 		ExplosionSound=AkEvent'ww_zed_fleshpound_2.Play_King_FP_Rage_Hit'
 
 		CamShake=CameraShake'FX_CameraShake_Arch.Grenades.Default_Grenade'
 		CamShakeInnerRadius=200
-		CamShakeOuterRadius=900
+		CamShakeOuterRadius=650
 		CamShakeFalloff=1.5f
 		bOrientCameraShakeTowardsEpicenter=true
 	End Object
