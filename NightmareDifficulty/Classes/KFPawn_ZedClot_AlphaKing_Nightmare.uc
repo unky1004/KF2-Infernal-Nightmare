@@ -3,28 +3,6 @@ class KFPawn_ZedClot_AlphaKing_Nightmare extends KFPawn_ZedClot_AlphaKing;
 var const array<float> XPValuesMod;
 var ParticleSystemComponent BurningEffect;
 
-simulated function PostBeginPlay()
-{
-	local byte i;
-	
-	Super.PostBeginPlay();
-	
-	AfflictionHandler.FireFullyCharredDuration = 2.5;
-	AfflictionHandler.FireCharPercentThreshhold = 0.25;
-	
-	for( i=0; i<DamageTypeModifiers.Length; i++ )
-	{
-		if( DamageTypeModifiers[i].DamageType == class'KFDT_Fire' )
-		{
-			DamageTypeModifiers[i].DamageScale[0] = 0.1;
-			break;
-		}
-	}
-
-	if( WorldInfo.NetMode!=NM_DedicatedServer )
-		UpdateGameplayMICParams();
-}
-
 simulated function UpdateGameplayMICParams()
 {
 	local LinearColor C;
