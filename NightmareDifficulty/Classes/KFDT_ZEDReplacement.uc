@@ -4,8 +4,8 @@ class KFDT_ZEDReplacement extends KFDamageType
 
 defaultproperties
 {
-	bNoPain=false
-	bCanGib=true
+	bNoPain=true
+	bCanGib=false
 	bCanObliterate=true
 	bShouldSpawnBloodSplat=false
 	bShouldSpawnPersistentBlood=false
