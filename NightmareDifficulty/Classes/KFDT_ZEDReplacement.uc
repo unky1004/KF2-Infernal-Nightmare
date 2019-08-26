@@ -4,7 +4,7 @@ class KFDT_ZEDReplacement extends KFDamageType
 
 defaultproperties
 {
-	bNoPain=true
+	bNoPain=false
 	bCanGib=true
 	bCanObliterate=true
 	bShouldSpawnBloodSplat=false
@@ -12,8 +12,8 @@ defaultproperties
 
 	KnockdownPower=0
 	StumblePower=0
-	MaxObliterationGibs=0
+	MaxObliterationGibs=1
 
 	ObliterationHealthThreshold=0
-	ObliterationDamageThreshold=0	
+	ObliterationDamageThreshold=1	
 }
