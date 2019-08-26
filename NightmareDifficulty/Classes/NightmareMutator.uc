@@ -102,7 +102,7 @@ function PostBeginPlay()
         KFGI.KFGFxManagerClass = class'MoviePlayer_Manager_Nightmare';
         
         KFGI.DeathPenaltyModifiers.AddItem(0.00);
-        KFGI.MaxRespawnDosh.AddItem(2500.f);
+        KFGI.MaxRespawnDosh.AddItem(3000.f);
         KFGI.MaxGameDifficulty = 4;
     
         SetTimer(1, false, 'AdjustVariousSettings');
