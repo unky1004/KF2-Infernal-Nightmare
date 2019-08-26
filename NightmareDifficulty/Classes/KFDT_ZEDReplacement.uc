@@ -10,8 +10,8 @@ defaultproperties
 	bShouldSpawnBloodSplat=false
 	bShouldSpawnPersistentBlood=false
 
-	KnockdownPower=0
-	StumblePower=0
+	KnockdownPower=1
+	StumblePower=1
 	MaxObliterationGibs=1
 
 	ObliterationHealthThreshold=0
