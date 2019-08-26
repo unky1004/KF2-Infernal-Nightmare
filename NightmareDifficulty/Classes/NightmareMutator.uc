@@ -101,7 +101,7 @@ function PostBeginPlay()
         KFGI.HUDType = class'HudWrapper_Nightmare';
         KFGI.KFGFxManagerClass = class'MoviePlayer_Manager_Nightmare';
         
-        KFGI.DeathPenaltyModifiers.AddItem(0.70);
+        KFGI.DeathPenaltyModifiers.AddItem(0.00);
         KFGI.MaxRespawnDosh.AddItem(2500.f);
         KFGI.MaxGameDifficulty = 4;
     
