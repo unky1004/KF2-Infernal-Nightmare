@@ -62,8 +62,13 @@ simulated static function float GetXPValue(byte Difficulty)
 
 defaultproperties
 {
-
-
+	Begin Object Class=FIRE_MeleeHelper Name=FIREMeleeHelper_0
+		BaseDamage=10.f
+		MaxHitRange=210.f
+		MomentumTransfer=25000.f
+	End Object
+	MeleeAttackHelper=FIREMeleeHelper_0
+	
 	XPValuesMod(0)=11
 	XPValuesMod(1)=14
 	XPValuesMod(2)=14
