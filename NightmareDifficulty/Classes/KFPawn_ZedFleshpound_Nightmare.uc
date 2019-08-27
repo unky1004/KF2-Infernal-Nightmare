@@ -87,20 +87,20 @@ DefaultProperties
 	
 	Begin Object Class=KFGameExplosion Name=ExploTemplate1
 		Damage=30
-		DamageRadius=500
+		DamageRadius=450
 		DamageFalloffExponent=2.f
 		DamageDelay=0.f
 
 		MyDamageType=class'KFDT_Explosive_FleshpoundKingRage_Heavy'
 		KnockDownStrength=0
 		FractureMeshRadius=200.0
-		FracturePartVel=500.0
+		FracturePartVel=450.0
 		ExplosionEffects=KFImpactEffectInfo'ZED_Fleshpound_King_EMIT.King_Pound_Explosion_Heavy'
 		ExplosionSound=AkEvent'ww_zed_fleshpound_2.Play_King_FP_Rage_Hit'
 
 		CamShake=CameraShake'FX_CameraShake_Arch.Grenades.Default_Grenade'
 		CamShakeInnerRadius=200
-		CamShakeOuterRadius=900
+		CamShakeOuterRadius=600
 		CamShakeFalloff=1.5f
 		bOrientCameraShakeTowardsEpicenter=true
 	End Object
