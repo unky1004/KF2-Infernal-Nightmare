@@ -25,7 +25,35 @@ simulated function PostBeginPlay()
 		UpdateGameplayMICParams();
 }
 
+simulated function UpdateGameplayMICParams()
+{
+	local LinearColor C;
+	
+	Super.UpdateGameplayMICParams();
+	
+	if ( WorldInfo.NetMode != NM_DedicatedServer )
+	{
+		C.R = 1;
+		C.G = 0.5;
+		C.B = 0;
+		C.A = 1;
+		
+		CharacterMICs[0].SetVectorParameterValue('Vector_GlowColor', C);
+		CharacterMICs[0].SetVectorParameterValue('Vector_FresnelGlowColor', C);
+		
+		BurningEffect = new(self) class'ParticleSystemComponent';
+		BurningEffect.SetTemplate( ParticleSystem'FX_Gameplay_EMIT.Chr.FX_CHR_Fire' );
+		Mesh.AttachComponentToSocket( BurningEffect, 'Hips' );
+		BurningEffect.ActivateSystem();
+	}
+}
 
+simulated function TerminateEffectsOnDeath()
+{
+	Super.TerminateEffectsOnDeath();
+	if( BurningEffect!=None )
+		BurningEffect.SetStopSpawning( -1, true );
+}
 
 simulated static function float GetXPValue(byte Difficulty)
 {
