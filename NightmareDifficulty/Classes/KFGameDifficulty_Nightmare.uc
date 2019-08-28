@@ -204,7 +204,7 @@ defaultproperties
 	
 	Nightmare={(
 		TraderTime=60,
-		MovementSpeedMod=1.110000,
+		MovementSpeedMod=1.050000,
    		WaveCountMod=1.030000,
    		DoshKillMod=1.550000,
    		StartingDosh=5500,
